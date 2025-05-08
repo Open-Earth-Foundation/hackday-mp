@@ -55,13 +55,7 @@ def run_single_pair_test():
         print("Test Error: OPENROUTER_API_KEY environment variable not set or loaded. Cannot proceed.")
         return
     print("OPENROUTER_API_KEY found.")
-    # try:
-    #     print("\n--- Initializing OpenRouter Headers ---")
-    #     openrouter_headers = initialize_openrouter_client_headers()
-    #     print("OpenRouter headers initialized successfully.")
-    # except ValueError as e:
-    #     print(f"Test Error: {e} - Cannot proceed without API key.")
-    #     return
+
 
     # 2. Load all climate actions data (still useful for picking test pair data)
     print("\\n--- Loading All Climate Actions Data ---")

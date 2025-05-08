@@ -117,11 +117,36 @@ def get_openrouter_completion(model_name: str, prompt_messages: list, headers: d
         raise ValueError(f"Received empty content from LLM. Response: {response_data}")
             
     try:
+        # First attempt to parse directly
         parsed_json = json.loads(content)
-    except json.JSONDecodeError as e:
-        error_msg = f"LLM response was not valid JSON. Raw response: '{content}'"
-        print(f"  Error: {error_msg} - JSONDecodeError: {e}")
-        raise ValueError(error_msg) from e
+    except json.JSONDecodeError as e1:
+        # If direct parsing fails, try to strip markdown code block if present
+        stripped_content = content.strip()
+        if stripped_content.startswith("```json") and stripped_content.endswith("```"):
+            # Extract content between ```json\n and ```
+            # Common pattern is ```json\n{...}\n``` or just ```json\n{...}```
+            # We'll find the first { and last }
+            first_brace = stripped_content.find('{')
+            last_brace = stripped_content.rfind('}')
+            if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
+                json_substring = stripped_content[first_brace : last_brace + 1]
+                try:
+                    print(f"  Attempting to parse extracted JSON substring: '{json_substring[:100]}...'") # Log snippet
+                    parsed_json = json.loads(json_substring)
+                except json.JSONDecodeError as e2:
+                    error_msg = f"LLM response was not valid JSON even after attempting to strip markdown. Extracted part: '{json_substring[:100]}...' Original raw: '{content[:100]}...'"
+                    print(f"  Error: {error_msg} - Inner JSONDecodeError: {e2}")
+                    raise ValueError(error_msg) from e2 # Raise error from trying to parse substring
+            else:
+                # Could not find valid braces in the supposed markdown block
+                error_msg = f"LLM response started with ```json but could not extract a valid JSON object. Raw response: '{content[:100]}...'"
+                print(f"  Error: {error_msg}")
+                raise ValueError(error_msg) from e1 # Raise original error
+        else:
+            # Not a markdown code block, or not one we can handle, so original error stands
+            error_msg = f"LLM response was not valid JSON. Raw response: '{content[:100]}...'"
+            print(f"  Error: {error_msg} - JSONDecodeError: {e1}")
+            raise ValueError(error_msg) from e1 # Raise original error
 
     if not isinstance(parsed_json, dict):
         error_msg = f"LLM response, when parsed, was not a dictionary as expected. Type: {type(parsed_json)}. Parsed: '{parsed_json}'"
