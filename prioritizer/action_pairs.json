@@ -1,0 +1,8397 @@
+[
+    {
+        "actionA": "ipcc_0059",
+        "actionB": "ipcc_0060",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0003",
+        "actionB": "c40_0031",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0080",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "ipcc_0024",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "c40_0021",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0075",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0075",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "ipcc_0007",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "ipcc_0001",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "c40_0040",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "c40_0011",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "c40_0012",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0019",
+        "actionB": "c40_0041",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "c40_0012",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0076",
+        "actionB": "c40_0026",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "c40_0028",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "c40_0018",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0020",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "c40_0019",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "c40_0022",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0070",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0056",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0010",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0020",
+        "actionB": "ipcc_0062",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0071",
+        "actionB": "c40_0038",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "c40_0036",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0071",
+        "actionB": "c40_0016",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "c40_0022",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "c40_0039",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0008",
+        "actionB": "c40_0032",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "c40_0032",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0021",
+        "actionB": "c40_0032",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0024",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0067",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "c40_0012",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0008",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "c40_0023",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "ipcc_0069",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "c40_0009",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0061",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "ipcc_0018",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "c40_0010",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0012",
+        "actionB": "c40_0024",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0011",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "c40_0009",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0025",
+        "actionB": "c40_0016",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0074",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0071",
+        "actionB": "c40_0031",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0013",
+        "actionB": "c40_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0061",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0037",
+        "actionB": "ipcc_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "c40_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0025",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "c40_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "ipcc_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0022",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "c40_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0067",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "c40_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0031",
+        "actionB": "c40_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "ipcc_0054",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "c40_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "c40_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0075",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "c40_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "ipcc_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "ipcc_0053",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0033",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0028",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0065",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0076",
+        "actionB": "c40_0037",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "c40_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "ipcc_0063",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0080",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0069",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "c40_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0052",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "c40_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0044",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0012",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "ipcc_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0020",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "c40_0035",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0017",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "c40_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "c40_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0034",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "ipcc_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0025",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0007",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0075",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0070",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "ipcc_0048",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0063",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0070",
+        "actionB": "c40_0031",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0048",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0071",
+        "actionB": "c40_0039",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "c40_0013",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "c40_0015",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "c40_0032",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "c40_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0052",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0055",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0015",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0022",
+        "actionB": "c40_0042",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0075",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "c40_0017",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "ipcc_0078",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "ipcc_0062",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "c40_0039",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "c40_0017",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "c40_0038",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0041",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0040",
+        "actionB": "ipcc_0048",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "c40_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0012",
+        "actionB": "ipcc_0075",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "c40_0036",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "c40_0010",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "c40_0041",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0024",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0031",
+        "actionB": "c40_0040",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0005",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0069",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "ipcc_0062",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0029",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "ipcc_0017",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0025",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "ipcc_0077",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0078",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "c40_0018",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0017",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0008",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "ipcc_0028",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "c40_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0065",
+        "actionB": "ipcc_0004",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "ipcc_0078",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "c40_0070",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0054",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "c40_0043",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0016",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0076",
+        "actionB": "ipcc_0078",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "c40_0038",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0010",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0039",
+        "actionB": "c40_0015",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0022",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0028",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0022",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0036",
+        "actionB": "ipcc_0029",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0017",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "c40_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "c40_0023",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "ipcc_0063",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "ipcc_0067",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0033",
+        "actionB": "ipcc_0004",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0037",
+        "actionB": "c40_0024",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "c40_0043",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "ipcc_0076",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0042",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "c40_0016",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0022",
+        "actionB": "c40_0016",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0008",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "c40_0070",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "c40_0042",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0013",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "ipcc_0025",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "icare_0083",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0076",
+        "actionB": "ipcc_0015",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0028",
+        "actionB": "c40_0009",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "icare_0139",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0059",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "ipcc_0077",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "icare_0094",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "icare_0058",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0005",
+        "actionB": "icare_0034",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "icare_0079",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "icare_0025",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0012",
+        "actionB": "c40_0019",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0022",
+        "actionB": "icare_0122",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "icare_0081",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0001",
+        "actionB": "icare_0002",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "icare_0084",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0024",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "ipcc_0052",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "c40_0036",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0019",
+        "actionB": "icare_0122",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "icare_0004",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0054",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "icare_0110",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0074",
+        "actionB": "ipcc_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0004",
+        "actionB": "icare_0067",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0027",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0045",
+        "actionB": "icare_0101",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0001",
+        "actionB": "icare_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0127",
+        "actionB": "ipcc_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0010",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "icare_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "icare_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "icare_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0080",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "icare_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0107",
+        "actionB": "icare_0007",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0011",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0017",
+        "actionB": "icare_0119",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "icare_0141",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0164",
+        "actionB": "c40_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "icare_0147",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "ipcc_0089",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "ipcc_0089",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0142",
+        "actionB": "icare_0155",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0166",
+        "actionB": "icare_0183",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0142",
+        "actionB": "ipcc_0102",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0054",
+        "actionB": "icare_0165",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "c40_0069",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0178",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "icare_0185",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0061",
+        "actionB": "ipcc_0088",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0088",
+        "actionB": "icare_0150",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0097",
+        "actionB": "ipcc_0102",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "c40_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "ipcc_0081",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0086",
+        "actionB": "icare_0148",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0187",
+        "actionB": "icare_0174",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0144",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "icare_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "icare_0089",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "c40_0039",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0085",
+        "actionB": "icare_0052",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0014",
+        "actionB": "icare_0103",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0031",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0055",
+        "actionB": "icare_0115",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "ipcc_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0099",
+        "actionB": "ipcc_0062",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0090",
+        "actionB": "c40_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "c40_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0070",
+        "actionB": "ipcc_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0037",
+        "actionB": "icare_0060",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0137",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0063",
+        "actionB": "ipcc_0001",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "icare_0085",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "icare_0120",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0033",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "ipcc_0090",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0187",
+        "actionB": "ipcc_0087",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0171",
+        "actionB": "icare_0156",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0099",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0052",
+        "actionB": "icare_0174",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "icare_0143",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0050",
+        "actionB": "ipcc_0094",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0089",
+        "actionB": "icare_0169",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0177",
+        "actionB": "icare_0156",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "icare_0177",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "icare_0159",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0168",
+        "actionB": "icare_0148",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "ipcc_0098",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0048",
+        "actionB": "c40_0052",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0153",
+        "actionB": "ipcc_0089",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "ipcc_0098",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0153",
+        "actionB": "c40_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0097",
+        "actionB": "icare_0153",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "icare_0160",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0030",
+        "actionB": "icare_0114",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0021",
+        "actionB": "icare_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0005",
+        "actionB": "c40_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "ipcc_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0075",
+        "actionB": "icare_0137",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0007",
+        "actionB": "icare_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0132",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "icare_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0004",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0024",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0133",
+        "actionB": "c40_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0004",
+        "actionB": "icare_0111",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0016",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0126",
+        "actionB": "icare_0001",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0054",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0012",
+        "actionB": "c40_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0106",
+        "actionB": "ipcc_0076",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0108",
+        "actionB": "ipcc_0007",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0069",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0019",
+        "actionB": "icare_0039",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "icare_0004",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0082",
+        "actionB": "icare_0120",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "icare_0080",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "icare_0133",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "icare_0079",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0107",
+        "actionB": "icare_0029",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0108",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0024",
+        "actionB": "icare_0079",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "icare_0078",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "c40_0026",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "icare_0136",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0069",
+        "actionB": "c40_0016",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0012",
+        "actionB": "icare_0074",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0106",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0035",
+        "actionB": "icare_0099",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0064",
+        "actionB": "c40_0015",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0060",
+        "actionB": "icare_0170",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "icare_0002",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "icare_0079",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "c40_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0066",
+        "actionB": "icare_0028",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0046",
+        "actionB": "c40_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0054",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0137",
+        "actionB": "c40_0040",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "icare_0075",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "ipcc_0078",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0059",
+        "actionB": "c40_0014",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "icare_0036",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "icare_0046",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0096",
+        "actionB": "icare_0052",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0131",
+        "actionB": "c40_0040",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0022",
+        "actionB": "icare_0028",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0106",
+        "actionB": "icare_0015",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0136",
+        "actionB": "icare_0044",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "icare_0080",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0031",
+        "actionB": "icare_0066",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0006",
+        "actionB": "c40_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "c40_0019",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "icare_0086",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0058",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0037",
+        "actionB": "icare_0030",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0103",
+        "actionB": "ipcc_0067",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0138",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "c40_0036",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0046",
+        "actionB": "c40_0024",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0065",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0018",
+        "actionB": "icare_0013",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0134",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "icare_0091",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0092",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0007",
+        "actionB": "ipcc_0001",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0099",
+        "actionB": "icare_0017",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0018",
+        "actionB": "icare_0100",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0071",
+        "actionB": "icare_0108",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0121",
+        "actionB": "icare_0011",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "icare_0006",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0025",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "icare_0018",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "icare_0001",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0045",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0014",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "icare_0096",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "icare_0063",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0006",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "icare_0138",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "icare_0037",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "icare_0109",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0063",
+        "actionB": "icare_0081",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0022",
+        "actionB": "icare_0073",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0080",
+        "actionB": "icare_0067",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "icare_0085",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0088",
+        "actionB": "ipcc_0006",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0004",
+        "actionB": "icare_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0017",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0090",
+        "actionB": "icare_0026",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0060",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0111",
+        "actionB": "icare_0036",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0115",
+        "actionB": "icare_0013",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0005",
+        "actionB": "icare_0092",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0020",
+        "actionB": "icare_0019",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0079",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0033",
+        "actionB": "c40_0023",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "c40_0033",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0093",
+        "actionB": "c40_0014",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "icare_0015",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0006",
+        "actionB": "icare_0103",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "icare_0024",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0006",
+        "actionB": "c40_0009",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0057",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0055",
+        "actionB": "icare_0020",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "icare_0003",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0003",
+        "actionB": "icare_0082",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0029",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0127",
+        "actionB": "icare_0010",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0001",
+        "actionB": "c40_0023",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0019",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0115",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "icare_0124",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0031",
+        "actionB": "icare_0095",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "icare_0072",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0076",
+        "actionB": "c40_0038",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0075",
+        "actionB": "icare_0017",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "c40_0071",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0011",
+        "actionB": "c40_0040",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "icare_0092",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "ipcc_0065",
+        "actionB": "icare_0126",
+        "city_locode": "BRCXL"
+    },
+    {
+        "actionA": "icare_0082",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0048",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "icare_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "icare_0054",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0021",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0132",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0019",
+        "actionB": "icare_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "icare_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "icare_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0003",
+        "actionB": "c40_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0089",
+        "actionB": "c40_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0137",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0073",
+        "actionB": "c40_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0045",
+        "actionB": "icare_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "icare_0100",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "c40_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0047",
+        "actionB": "c40_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0121",
+        "actionB": "c40_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0126",
+        "actionB": "ipcc_0067",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "ipcc_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0071",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "ipcc_0052",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0027",
+        "actionB": "icare_0003",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "icare_0068",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "icare_0002",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0071",
+        "actionB": "icare_0039",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0133",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0071",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0044",
+        "actionB": "icare_0091",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0055",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0074",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0090",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0108",
+        "actionB": "icare_0128",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0006",
+        "actionB": "icare_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0119",
+        "actionB": "icare_0100",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0053",
+        "actionB": "icare_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "icare_0102",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0116",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0123",
+        "actionB": "icare_0085",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0090",
+        "actionB": "icare_0101",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0038",
+        "actionB": "icare_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0033",
+        "actionB": "icare_0084",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "icare_0100",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0056",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "icare_0080",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0125",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0130",
+        "actionB": "ipcc_0077",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0057",
+        "actionB": "icare_0083",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0006",
+        "actionB": "ipcc_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0054",
+        "actionB": "ipcc_0060",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0010",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0097",
+        "actionB": "icare_0093",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0114",
+        "actionB": "icare_0004",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0046",
+        "actionB": "icare_0006",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "icare_0124",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "icare_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "icare_0081",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "icare_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "icare_0075",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0039",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "icare_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "icare_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0134",
+        "actionB": "ipcc_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0023",
+        "actionB": "ipcc_0052",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0059",
+        "actionB": "c40_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "icare_0094",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0099",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0078",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0091",
+        "actionB": "icare_0036",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0137",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "icare_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0066",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0054",
+        "actionB": "icare_0154",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0163",
+        "actionB": "icare_0181",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0163",
+        "actionB": "c40_0068",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0142",
+        "actionB": "icare_0174",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0177",
+        "actionB": "icare_0163",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0098",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0156",
+        "actionB": "icare_0151",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0098",
+        "actionB": "icare_0148",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0102",
+        "actionB": "icare_0168",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0147",
+        "actionB": "icare_0145",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0096",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0086",
+        "actionB": "icare_0143",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0062",
+        "actionB": "icare_0146",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0155",
+        "actionB": "icare_0158",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0182",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0067",
+        "actionB": "ipcc_0097",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0094",
+        "actionB": "icare_0148",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0092",
+        "actionB": "icare_0187",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "c40_0017",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0040",
+        "actionB": "ipcc_0028",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "icare_0007",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0045",
+        "actionB": "c40_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0027",
+        "actionB": "icare_0082",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0087",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "c40_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0102",
+        "actionB": "icare_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0025",
+        "actionB": "icare_0112",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "ipcc_0056",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "icare_0005",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0107",
+        "actionB": "icare_0084",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0089",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "c40_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0027",
+        "actionB": "c40_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0068",
+        "actionB": "ipcc_0081",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0157",
+        "actionB": "ipcc_0087",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0088",
+        "actionB": "icare_0144",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "icare_0174",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0066",
+        "actionB": "c40_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0098",
+        "actionB": "icare_0183",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0177",
+        "actionB": "icare_0146",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "ipcc_0090",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0173",
+        "actionB": "c40_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0095",
+        "actionB": "ipcc_0102",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0162",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0059",
+        "actionB": "icare_0168",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0050",
+        "actionB": "icare_0142",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "icare_0175",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "c40_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0147",
+        "actionB": "icare_0189",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "icare_0149",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0184",
+        "actionB": "c40_0069",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "c40_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0134",
+        "actionB": "ipcc_0074",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0031",
+        "actionB": "c40_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0022",
+        "actionB": "c40_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0103",
+        "actionB": "icare_0121",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0035",
+        "actionB": "ipcc_0061",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0138",
+        "actionB": "icare_0025",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "icare_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0136",
+        "actionB": "icare_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "icare_0055",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0046",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0088",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0008",
+        "actionB": "icare_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "icare_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0013",
+        "actionB": "icare_0123",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0078",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0033",
+        "actionB": "icare_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0101",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0052",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0053",
+        "actionB": "icare_0153",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0169",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "icare_0143",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0066",
+        "actionB": "icare_0164",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "c40_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "ipcc_0100",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0062",
+        "actionB": "icare_0149",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0159",
+        "actionB": "c40_0059",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0157",
+        "actionB": "c40_0063",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "icare_0185",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0145",
+        "actionB": "icare_0169",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "icare_0177",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "icare_0160",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0051",
+        "actionB": "icare_0183",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0155",
+        "actionB": "c40_0058",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "ipcc_0101",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "c40_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0146",
+        "actionB": "c40_0060",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0100",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0049",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0076",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "icare_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0080",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0048",
+        "actionB": "icare_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "icare_0085",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0081",
+        "actionB": "icare_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0094",
+        "actionB": "ipcc_0060",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0094",
+        "actionB": "icare_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0089",
+        "actionB": "icare_0075",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0068",
+        "actionB": "ipcc_0062",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0011",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "icare_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0027",
+        "actionB": "icare_0128",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "icare_0044",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "icare_0079",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0053",
+        "actionB": "icare_0018",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0066",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0181",
+        "actionB": "icare_0145",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "ipcc_0097",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "c40_0059",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "ipcc_0088",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0058",
+        "actionB": "ipcc_0086",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0054",
+        "actionB": "icare_0174",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0007",
+        "actionB": "icare_0106",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0001",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0028",
+        "actionB": "c40_0017",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0013",
+        "actionB": "icare_0103",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0107",
+        "actionB": "ipcc_0063",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "icare_0087",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0129",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0054",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0064",
+        "actionB": "icare_0109",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0043",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "icare_0060",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "icare_0083",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0060",
+        "actionB": "icare_0133",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0002",
+        "actionB": "icare_0118",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0091",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0083",
+        "actionB": "icare_0128",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0128",
+        "actionB": "icare_0096",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0036",
+        "actionB": "c40_0022",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0135",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0129",
+        "actionB": "icare_0067",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0122",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0059",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0059",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0094",
+        "actionB": "icare_0116",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0168",
+        "actionB": "ipcc_0081",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0104",
+        "actionB": "c40_0048",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0064",
+        "actionB": "icare_0174",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0003",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0095",
+        "actionB": "icare_0033",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0092",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "icare_0086",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "icare_0062",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "icare_0032",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0061",
+        "actionB": "icare_0082",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0115",
+        "actionB": "icare_0009",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0054",
+        "actionB": "icare_0022",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "ipcc_0026",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0114",
+        "actionB": "icare_0029",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0087",
+        "actionB": "icare_0148",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0164",
+        "actionB": "icare_0145",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0187",
+        "actionB": "icare_0143",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0051",
+        "actionB": "icare_0153",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0095",
+        "actionB": "ipcc_0087",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "icare_0178",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0101",
+        "actionB": "c40_0058",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0087",
+        "actionB": "icare_0146",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "icare_0030",
+        "actionB": "icare_0032",
+        "city_locode": "BRCCI"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0106",
+        "actionB": "icare_0124",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "icare_0082",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "icare_0113",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0189",
+        "actionB": "icare_0164",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "ipcc_0081",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "c40_0068",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0177",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "ipcc_0085",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0060",
+        "actionB": "icare_0156",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0180",
+        "actionB": "ipcc_0083",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0075",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0134",
+        "actionB": "icare_0086",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0010",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0075",
+        "actionB": "icare_0117",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0109",
+        "actionB": "icare_0036",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "icare_0113",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "c40_0029",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "icare_0121",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0073",
+        "actionB": "c40_0024",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0023",
+        "actionB": "icare_0072",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0079",
+        "actionB": "icare_0096",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "icare_0088",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0106",
+        "actionB": "icare_0053",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0071",
+        "actionB": "c40_0012",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "icare_0105",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "icare_0033",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0044",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0044",
+        "actionB": "icare_0086",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0064",
+        "actionB": "icare_0086",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "icare_0061",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0028",
+        "actionB": "icare_0037",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0104",
+        "actionB": "icare_0063",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "c40_0041",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0029",
+        "actionB": "icare_0017",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0085",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0020",
+        "actionB": "icare_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0076",
+        "actionB": "icare_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0050",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "ipcc_0017",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0089",
+        "actionB": "icare_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "icare_0069",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "icare_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0066",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0078",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0008",
+        "actionB": "icare_0086",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0028",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "ipcc_0054",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "c40_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0021",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "ipcc_0001",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0058",
+        "actionB": "c40_0037",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0021",
+        "actionB": "c40_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0064",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0067",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0122",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0087",
+        "actionB": "icare_0085",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0129",
+        "actionB": "icare_0081",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0101",
+        "actionB": "c40_0034",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "icare_0098",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0039",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "ipcc_0076",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0050",
+        "actionB": "icare_0062",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0040",
+        "actionB": "ipcc_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0085",
+        "actionB": "icare_0088",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0091",
+        "actionB": "icare_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0087",
+        "actionB": "icare_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "c40_0058",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0164",
+        "actionB": "ipcc_0089",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0188",
+        "actionB": "c40_0062",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0053",
+        "actionB": "icare_0150",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0063",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0142",
+        "actionB": "icare_0174",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0087",
+        "actionB": "icare_0143",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "icare_0181",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0188",
+        "actionB": "c40_0059",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0101",
+        "actionB": "c40_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0168",
+        "actionB": "icare_0165",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0160",
+        "actionB": "icare_0144",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0095",
+        "actionB": "icare_0174",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0092",
+        "actionB": "c40_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0171",
+        "actionB": "c40_0054",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0097",
+        "actionB": "icare_0155",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0058",
+        "actionB": "ipcc_0103",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0188",
+        "actionB": "icare_0182",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "ipcc_0087",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0072",
+        "actionB": "icare_0129",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0059",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0074",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0120",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0116",
+        "actionB": "icare_0125",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0090",
+        "actionB": "ipcc_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "ipcc_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "c40_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0030",
+        "actionB": "icare_0088",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "c40_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0063",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "icare_0073",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0022",
+        "actionB": "c40_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0011",
+        "actionB": "icare_0089",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0037",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "icare_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0008",
+        "actionB": "c40_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "icare_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0023",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0052",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0174",
+        "actionB": "icare_0143",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0183",
+        "actionB": "ipcc_0092",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "c40_0061",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0059",
+        "actionB": "icare_0163",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0088",
+        "actionB": "icare_0169",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0089",
+        "actionB": "c40_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0102",
+        "actionB": "ipcc_0088",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "c40_0067",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0147",
+        "actionB": "icare_0155",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "icare_0163",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0095",
+        "actionB": "c40_0056",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0084",
+        "actionB": "ipcc_0093",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0101",
+        "actionB": "icare_0173",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0146",
+        "actionB": "ipcc_0104",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "c40_0058",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "icare_0176",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0148",
+        "actionB": "icare_0140",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0068",
+        "actionB": "c40_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0178",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "c40_0016",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0133",
+        "actionB": "c40_0014",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0020",
+        "actionB": "c40_0039",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0038",
+        "actionB": "icare_0016",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "c40_0071",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "icare_0061",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0049",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "c40_0027",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "icare_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0014",
+        "actionB": "icare_0091",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "icare_0073",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "icare_0054",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0005",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0004",
+        "actionB": "icare_0060",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0027",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "icare_0077",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0099",
+        "actionB": "ipcc_0007",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0018",
+        "actionB": "icare_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0013",
+        "actionB": "icare_0087",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "c40_0052",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0065",
+        "actionB": "c40_0059",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "c40_0061",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0081",
+        "actionB": "ipcc_0101",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "ipcc_0101",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0062",
+        "actionB": "icare_0180",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0171",
+        "actionB": "icare_0164",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0063",
+        "actionB": "ipcc_0101",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "ipcc_0096",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0174",
+        "actionB": "icare_0165",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0053",
+        "actionB": "icare_0185",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "ipcc_0092",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0062",
+        "actionB": "icare_0148",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0169",
+        "actionB": "icare_0148",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0057",
+        "actionB": "icare_0142",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0147",
+        "actionB": "c40_0049",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0053",
+        "actionB": "ipcc_0094",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0092",
+        "actionB": "icare_0146",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0178",
+        "actionB": "c40_0047",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0162",
+        "actionB": "c40_0062",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "ipcc_0070",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0133",
+        "actionB": "icare_0005",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0061",
+        "actionB": "c40_0029",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "icare_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0089",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0022",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "c40_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0006",
+        "actionB": "c40_0013",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0026",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0025",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0025",
+        "actionB": "ipcc_0076",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "icare_0025",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "icare_0087",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "c40_0035",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "ipcc_0056",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0048",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0002",
+        "actionB": "ipcc_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "icare_0110",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "ipcc_0074",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "icare_0142",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0190",
+        "actionB": "c40_0056",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0177",
+        "actionB": "icare_0166",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0066",
+        "actionB": "c40_0057",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0164",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0149",
+        "actionB": "icare_0146",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0102",
+        "actionB": "icare_0178",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "icare_0142",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0148",
+        "actionB": "icare_0146",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "icare_0174",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0150",
+        "actionB": "ipcc_0084",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0057",
+        "actionB": "icare_0172",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0067",
+        "actionB": "c40_0060",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "icare_0172",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0144",
+        "actionB": "c40_0053",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0168",
+        "actionB": "c40_0066",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0085",
+        "actionB": "c40_0057",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "c40_0060",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "icare_0180",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "icare_0002",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0055",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0136",
+        "actionB": "icare_0040",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "icare_0006",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0042",
+        "actionB": "icare_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "c40_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0040",
+        "actionB": "icare_0044",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "icare_0056",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "ipcc_0007",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "c40_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "icare_0045",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "icare_0077",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0001",
+        "actionB": "icare_0021",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0076",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "ipcc_0076",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "icare_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "icare_0061",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0041",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0148",
+        "actionB": "icare_0160",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0064",
+        "actionB": "c40_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0096",
+        "actionB": "c40_0042",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0135",
+        "actionB": "c40_0019",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "icare_0093",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0130",
+        "actionB": "ipcc_0007",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0021",
+        "actionB": "c40_0013",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0103",
+        "actionB": "icare_0097",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0026",
+        "actionB": "icare_0136",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0059",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0037",
+        "actionB": "c40_0034",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "c40_0014",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0069",
+        "actionB": "icare_0105",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "icare_0045",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0058",
+        "actionB": "c40_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0050",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0043",
+        "actionB": "icare_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0021",
+        "actionB": "icare_0113",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0030",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0091",
+        "actionB": "icare_0072",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0003",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0076",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0102",
+        "actionB": "icare_0171",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0145",
+        "actionB": "icare_0142",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0066",
+        "actionB": "c40_0052",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0164",
+        "actionB": "ipcc_0083",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0148",
+        "actionB": "c40_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "icare_0144",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "icare_0173",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0175",
+        "actionB": "icare_0145",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0065",
+        "actionB": "ipcc_0088",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0065",
+        "actionB": "ipcc_0092",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0069",
+        "actionB": "icare_0165",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0186",
+        "actionB": "icare_0184",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0159",
+        "actionB": "c40_0051",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0061",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0084",
+        "actionB": "ipcc_0098",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0156",
+        "actionB": "ipcc_0101",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0069",
+        "actionB": "icare_0181",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0140",
+        "actionB": "ipcc_0092",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0146",
+        "actionB": "icare_0168",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0147",
+        "actionB": "icare_0151",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "icare_0107",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0100",
+        "actionB": "icare_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0025",
+        "actionB": "icare_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0083",
+        "actionB": "icare_0043",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0094",
+        "actionB": "c40_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0132",
+        "actionB": "icare_0054",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0083",
+        "actionB": "c40_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0028",
+        "actionB": "c40_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0032",
+        "actionB": "icare_0040",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0100",
+        "actionB": "icare_0087",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0082",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0124",
+        "actionB": "icare_0047",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0034",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0062",
+        "actionB": "icare_0102",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0122",
+        "actionB": "c40_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "icare_0041",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0025",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0080",
+        "actionB": "icare_0021",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "icare_0158",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0089",
+        "actionB": "ipcc_0087",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0170",
+        "actionB": "c40_0058",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "icare_0171",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0096",
+        "actionB": "icare_0146",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0171",
+        "actionB": "icare_0149",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0145",
+        "actionB": "icare_0162",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "c40_0051",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "c40_0069",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0165",
+        "actionB": "c40_0048",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0053",
+        "actionB": "icare_0145",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0069",
+        "actionB": "icare_0186",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0069",
+        "actionB": "icare_0152",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0167",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0175",
+        "actionB": "c40_0049",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "icare_0186",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "ipcc_0099",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0048",
+        "actionB": "ipcc_0090",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0051",
+        "actionB": "icare_0158",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0180",
+        "actionB": "c40_0058",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "icare_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "icare_0112",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "c40_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "icare_0085",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0139",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "ipcc_0019",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0031",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0061",
+        "actionB": "icare_0105",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0084",
+        "actionB": "icare_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0025",
+        "actionB": "icare_0013",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0006",
+        "actionB": "icare_0133",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0106",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "ipcc_0007",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0059",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "c40_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "c40_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0017",
+        "actionB": "c40_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0042",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "c40_0024",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "ipcc_0025",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "ipcc_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0063",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "ipcc_0060",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0054",
+        "actionB": "ipcc_0001",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "c40_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0016",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0061",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0037",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0054",
+        "actionB": "c40_0024",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0011",
+        "actionB": "c40_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0072",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0036",
+        "actionB": "ipcc_0053",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "c40_0016",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "ipcc_0066",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "c40_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0022",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "c40_0025",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0077",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0069",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0024",
+        "actionB": "ipcc_0001",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0078",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0055",
+        "actionB": "ipcc_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0048",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0036",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0039",
+        "actionB": "c40_0028",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0016",
+        "actionB": "c40_0070",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "icare_0072",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0028",
+        "actionB": "icare_0038",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "icare_0106",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "icare_0129",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0036",
+        "actionB": "icare_0128",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0094",
+        "actionB": "icare_0087",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "c40_0019",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0024",
+        "actionB": "icare_0064",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0037",
+        "actionB": "c40_0041",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "icare_0123",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0015",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "icare_0029",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0122",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0074",
+        "actionB": "icare_0079",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0129",
+        "actionB": "icare_0022",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0075",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0019",
+        "actionB": "icare_0060",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "icare_0024",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0052",
+        "actionB": "icare_0006",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0032",
+        "actionB": "c40_0043",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "icare_0022",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "icare_0053",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "icare_0056",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0053",
+        "actionB": "icare_0013",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0022",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0013",
+        "actionB": "c40_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0061",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0037",
+        "actionB": "ipcc_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "c40_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "ipcc_0073",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0025",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0027",
+        "actionB": "c40_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "ipcc_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0022",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "c40_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0067",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0037",
+        "actionB": "c40_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0031",
+        "actionB": "c40_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0050",
+        "actionB": "ipcc_0054",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0068",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0068",
+        "actionB": "c40_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "c40_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "ipcc_0042",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0075",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0028",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0074",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "c40_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "ipcc_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "ipcc_0053",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "ipcc_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0033",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "ipcc_0049",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0028",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0065",
+        "actionB": "c40_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "ipcc_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0040",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0076",
+        "actionB": "c40_0037",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "c40_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0057",
+        "actionB": "ipcc_0063",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0080",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0069",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "c40_0015",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0052",
+        "actionB": "ipcc_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "c40_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0058",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0044",
+        "actionB": "ipcc_0055",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0012",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "c40_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "ipcc_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "ipcc_0022",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0020",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "c40_0035",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0017",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "c40_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0053",
+        "actionB": "c40_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0034",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "ipcc_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0023",
+        "actionB": "ipcc_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0025",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0072",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0007",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "ipcc_0045",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0075",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "ipcc_0044",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0023",
+        "actionB": "icare_0003",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0004",
+        "actionB": "icare_0099",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0055",
+        "actionB": "icare_0121",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "icare_0084",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0048",
+        "actionB": "c40_0035",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0052",
+        "actionB": "c40_0012",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "icare_0059",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "icare_0041",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "icare_0026",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "icare_0034",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "icare_0029",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0022",
+        "actionB": "ipcc_0040",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0056",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0038",
+        "actionB": "c40_0026",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0107",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0109",
+        "actionB": "icare_0069",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0003",
+        "actionB": "c40_0023",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "icare_0019",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0066",
+        "actionB": "ipcc_0047",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0042",
+        "actionB": "c40_0015",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "icare_0001",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0022",
+        "actionB": "c40_0036",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "icare_0030",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0039",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "icare_0094",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0020",
+        "actionB": "c40_0010",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0103",
+        "actionB": "icare_0079",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0055",
+        "actionB": "icare_0002",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0048",
+        "actionB": "icare_0088",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0009",
+        "actionB": "icare_0078",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "c40_0013",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "icare_0088",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0057",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0083",
+        "actionB": "c40_0039",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0023",
+        "actionB": "icare_0017",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "c40_0028",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0055",
+        "actionB": "icare_0035",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0079",
+        "actionB": "icare_0019",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0029",
+        "actionB": "ipcc_0057",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0054",
+        "actionB": "ipcc_0051",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "icare_0083",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0100",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0026",
+        "actionB": "icare_0015",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "ipcc_0028",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0084",
+        "actionB": "icare_0092",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0069",
+        "actionB": "icare_0097",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0129",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "icare_0104",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0093",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0051",
+        "actionB": "ipcc_0043",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0071",
+        "actionB": "icare_0060",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0089",
+        "actionB": "icare_0045",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0102",
+        "actionB": "icare_0075",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "ipcc_0034",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0010",
+        "actionB": "c40_0021",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0116",
+        "actionB": "icare_0025",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0070",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0088",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0016",
+        "actionB": "c40_0021",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0058",
+        "actionB": "ipcc_0058",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0040",
+        "actionB": "icare_0038",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "icare_0142",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0185",
+        "actionB": "c40_0064",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0095",
+        "actionB": "icare_0161",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0095",
+        "actionB": "ipcc_0094",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0174",
+        "actionB": "c40_0053",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0155",
+        "actionB": "ipcc_0090",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0085",
+        "actionB": "icare_0171",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0063",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0141",
+        "actionB": "ipcc_0083",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "ipcc_0084",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0178",
+        "actionB": "ipcc_0095",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0166",
+        "actionB": "c40_0054",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0086",
+        "actionB": "c40_0059",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0166",
+        "actionB": "c40_0057",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "icare_0171",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0165",
+        "actionB": "icare_0169",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0104",
+        "actionB": "c40_0048",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "icare_0190",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "c40_0062",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0154",
+        "actionB": "ipcc_0085",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0005",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "c40_0031",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "icare_0065",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0011",
+        "actionB": "c40_0024",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0090",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0061",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0091",
+        "actionB": "c40_0070",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0092",
+        "actionB": "icare_0089",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0067",
+        "actionB": "c40_0029",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "icare_0060",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0021",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0060",
+        "actionB": "icare_0062",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0059",
+        "actionB": "icare_0124",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "c40_0031",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0003",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0070",
+        "actionB": "c40_0027",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0021",
+        "actionB": "ipcc_0018",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0065",
+        "actionB": "c40_0024",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0073",
+        "actionB": "c40_0026",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0068",
+        "actionB": "icare_0065",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0117",
+        "actionB": "icare_0060",
+        "city_locode": "BRRBR"
+    },
+    {
+        "actionA": "icare_0010",
+        "actionB": "icare_0016",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "icare_0137",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0091",
+        "actionB": "ipcc_0018",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0078",
+        "actionB": "icare_0041",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0041",
+        "actionB": "icare_0103",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0041",
+        "actionB": "icare_0088",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "icare_0093",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "icare_0021",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "c40_0014",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0057",
+        "actionB": "icare_0010",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0136",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0049",
+        "actionB": "icare_0108",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0034",
+        "actionB": "icare_0079",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0084",
+        "actionB": "icare_0023",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0059",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0086",
+        "actionB": "icare_0093",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0020",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0018",
+        "actionB": "ipcc_0041",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0020",
+        "actionB": "c40_0025",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0074",
+        "actionB": "ipcc_0066",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0171",
+        "actionB": "c40_0068",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0056",
+        "actionB": "c40_0064",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0064",
+        "actionB": "ipcc_0090",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0153",
+        "actionB": "c40_0048",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0090",
+        "actionB": "icare_0151",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0098",
+        "actionB": "c40_0065",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0167",
+        "actionB": "icare_0174",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0152",
+        "actionB": "icare_0167",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0146",
+        "actionB": "icare_0169",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "icare_0144",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0093",
+        "actionB": "ipcc_0102",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "c40_0054",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0146",
+        "actionB": "c40_0048",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0185",
+        "actionB": "icare_0167",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0050",
+        "actionB": "ipcc_0086",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0145",
+        "actionB": "icare_0146",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0155",
+        "actionB": "icare_0159",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0189",
+        "actionB": "icare_0146",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0096",
+        "actionB": "ipcc_0086",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0089",
+        "actionB": "ipcc_0092",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0083",
+        "actionB": "ipcc_0094",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0159",
+        "actionB": "icare_0190",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0169",
+        "actionB": "icare_0187",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0058",
+        "actionB": "c40_0060",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "icare_0143",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "c40_0050",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0179",
+        "actionB": "icare_0182",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0148",
+        "actionB": "icare_0143",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0062",
+        "actionB": "ipcc_0090",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0060",
+        "actionB": "icare_0159",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0096",
+        "actionB": "icare_0147",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0172",
+        "actionB": "ipcc_0096",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0050",
+        "actionB": "icare_0145",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0147",
+        "actionB": "icare_0174",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0183",
+        "actionB": "c40_0053",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0143",
+        "actionB": "icare_0155",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "ipcc_0098",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0166",
+        "actionB": "c40_0060",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "ipcc_0086",
+        "actionB": "ipcc_0087",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "icare_0180",
+        "actionB": "c40_0060",
+        "city_locode": "BRSER"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0029",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0027",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0033",
+        "actionB": "c40_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0052",
+        "actionB": "ipcc_0050",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "c40_0043",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "ipcc_0054",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0022",
+        "actionB": "ipcc_0063",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0063",
+        "actionB": "ipcc_0005",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "c40_0029",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "c40_0018",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0019",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "c40_0019",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "c40_0035",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0016",
+        "actionB": "c40_0014",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "c40_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "ipcc_0035",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0043",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0038",
+        "actionB": "c40_0019",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "c40_0028",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "c40_0013",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "c40_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "c40_0041",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "ipcc_0048",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "c40_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "c40_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0039",
+        "actionB": "c40_0024",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0016",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "c40_0070",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "ipcc_0065",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0025",
+        "actionB": "c40_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0003",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0010",
+        "actionB": "c40_0021",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "ipcc_0021",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "c40_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0034",
+        "actionB": "c40_0014",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0011",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0005",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0015",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "c40_0031",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "c40_0071",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0013",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0027",
+        "actionB": "ipcc_0012",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0023",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "c40_0015",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "c40_0037",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0016",
+        "actionB": "c40_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "ipcc_0016",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0012",
+        "actionB": "c40_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0028",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "c40_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0029",
+        "actionB": "ipcc_0038",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "ipcc_0030",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0001",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0018",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "c40_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "c40_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0078",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "c40_0019",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "c40_0035",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0007",
+        "actionB": "ipcc_0033",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0035",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0002",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0008",
+        "actionB": "ipcc_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "ipcc_0062",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0033",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0065",
+        "actionB": "ipcc_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0034",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0070",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "c40_0070",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0017",
+        "actionB": "c40_0014",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "ipcc_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "c40_0027",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0018",
+        "actionB": "c40_0017",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "c40_0018",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0036",
+        "actionB": "c40_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0043",
+        "actionB": "ipcc_0008",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "c40_0071",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0021",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0040",
+        "actionB": "ipcc_0032",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0024",
+        "actionB": "ipcc_0006",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "ipcc_0080",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0014",
+        "actionB": "ipcc_0020",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0024",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "c40_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "c40_0019",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "icare_0058",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0032",
+        "actionB": "c40_0039",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0112",
+        "actionB": "icare_0100",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "c40_0010",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0031",
+        "actionB": "ipcc_0071",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0035",
+        "actionB": "c40_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0014",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0042",
+        "actionB": "c40_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0080",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0095",
+        "actionB": "icare_0017",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "c40_0043",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0038",
+        "actionB": "icare_0084",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0028",
+        "actionB": "c40_0011",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "c40_0018",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0064",
+        "actionB": "c40_0026",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0047",
+        "actionB": "icare_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0015",
+        "actionB": "c40_0009",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0051",
+        "actionB": "icare_0084",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0012",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0069",
+        "actionB": "c40_0064",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "c40_0046",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0091",
+        "actionB": "icare_0150",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0160",
+        "actionB": "c40_0047",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0057",
+        "actionB": "c40_0046",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0052",
+        "actionB": "c40_0069",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0190",
+        "actionB": "c40_0067",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0162",
+        "actionB": "icare_0163",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0160",
+        "actionB": "icare_0190",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0057",
+        "actionB": "c40_0056",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0190",
+        "actionB": "icare_0158",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "ipcc_0091",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "icare_0163",
+        "actionB": "icare_0160",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0054",
+        "actionB": "c40_0058",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0059",
+        "actionB": "c40_0047",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0047",
+        "actionB": "c40_0048",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0054",
+        "actionB": "c40_0065",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0091",
+        "actionB": "c40_0046",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "icare_0190",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "c40_0048",
+        "actionB": "c40_0056",
+        "city_locode": "BRMGE"
+    },
+    {
+        "actionA": "ipcc_0040",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0011",
+        "actionB": "ipcc_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0032",
+        "actionB": "ipcc_0038",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0017",
+        "actionB": "c40_0026",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0062",
+        "actionB": "ipcc_0063",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "ipcc_0064",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0015",
+        "actionB": "c40_0011",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0049",
+        "actionB": "c40_0029",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0096",
+        "actionB": "icare_0098",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "c40_0028",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0014",
+        "actionB": "c40_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0025",
+        "actionB": "ipcc_0036",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0039",
+        "actionB": "icare_0040",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0033",
+        "actionB": "ipcc_0039",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0030",
+        "actionB": "c40_0013",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0097",
+        "actionB": "ipcc_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0009",
+        "actionB": "ipcc_0002",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0023",
+        "actionB": "c40_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0019",
+        "actionB": "icare_0016",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0026",
+        "actionB": "icare_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0010",
+        "actionB": "c40_0036",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0038",
+        "actionB": "ipcc_0031",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0043",
+        "actionB": "ipcc_0009",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0045",
+        "actionB": "c40_0035",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0046",
+        "actionB": "c40_0010",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0048",
+        "actionB": "icare_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0175",
+        "actionB": "icare_0144",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0158",
+        "actionB": "icare_0190",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0058",
+        "actionB": "c40_0046",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "ipcc_0099",
+        "actionB": "ipcc_0102",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0142",
+        "actionB": "ipcc_0094",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0151",
+        "actionB": "ipcc_0104",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0048",
+        "actionB": "c40_0056",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "c40_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0049",
+        "actionB": "c40_0048",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0054",
+        "actionB": "c40_0056",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0177",
+        "actionB": "c40_0066",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0046",
+        "actionB": "ipcc_0097",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0048",
+        "actionB": "c40_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0056",
+        "actionB": "icare_0171",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0056",
+        "actionB": "c40_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0160",
+        "actionB": "c40_0047",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0140",
+        "actionB": "icare_0145",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "icare_0190",
+        "actionB": "c40_0050",
+        "city_locode": "BRCMG"
+    },
+    {
+        "actionA": "c40_0048",
+        "actionB": "c40_0052",
+        "city_locode": "BRCMG"
+    }
+]
