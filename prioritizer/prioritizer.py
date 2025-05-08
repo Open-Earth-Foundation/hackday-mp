@@ -2,6 +2,9 @@ import json
 import os
 from pathlib import Path
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Attempt to import from utils. If prioritizer.py is at the root of hackday_q1,
 # and utils is a subdirectory, this might need adjustment depending on how Python path is set.
@@ -27,7 +30,7 @@ DEFAULT_MODEL_NAME = "google/gemini-flash-1.5"
 
 
 
-ACTION_PAIRS_FILE_PATH = Path(__file__).resolve().parent / "action_pairs.json"
+ACTION_PAIRS_FILE_PATH = Path(__file__).resolve().parent / "data/expert_comparisons/comparisons_Martha_Dillon_C40.json"
 MODEL_LIST_FILE_PATH = Path(__file__).resolve().parent / "model_list.json"
 
 
@@ -45,23 +48,44 @@ def initialize_openrouter_client_headers():
     }
     return headers
 
-def get_openrouter_completion(model_name: str, prompt_messages: list, headers: dict) -> str:
+def get_openrouter_completion(model_name: str, prompt_messages: list, headers: dict | None = None) -> dict:
     """
     Makes a call to the OpenRouter /chat/completions endpoint.
+    If headers are not provided or incomplete, defaults will be used for Authorization and Content-Type.
+    The response content is expected to be a JSON string, which will be parsed into a dictionary.
 
     Args:
         model_name: The name of the model to use.
         prompt_messages: A list of message objects for the prompt.
-        headers: The authorization headers for the API call.
+        headers: Optional. The authorization and content-type headers for the API call.
+                 If None or incomplete, defaults will be applied.
 
     Returns:
-        The content of the model's response, expected to be the winner ActionID.
+        A dictionary parsed from the LLM's JSON response, expected to contain 'actionid' and 'reason'.
 
     Raises:
         requests.exceptions.RequestException: If the API call fails.
-        KeyError, IndexError: If the response format is unexpected.
-        ValueError: If the response content is empty or JSON decoding fails.
+        KeyError, IndexError: If the response format is unexpected (before JSON parsing).
+        ValueError: If the response content is empty, JSON decoding fails,
+                    OPENROUTER_API_KEY is not set and Authorization header is missing,
+                    or if the parsed JSON does not contain 'actionid' and 'reason' keys.
     """
+    final_headers = {}
+    if headers is not None:
+        final_headers.update(headers)
+
+    # Ensure Authorization header
+    if "Authorization" not in final_headers:
+        if not OPENROUTER_API_KEY:
+            raise ValueError(
+                "OPENROUTER_API_KEY environment variable not set and 'Authorization' header was not provided."
+            )
+        final_headers["Authorization"] = f"Bearer {OPENROUTER_API_KEY}"
+
+    # Ensure Content-Type header for JSON payload, if not already set
+    if "Content-Type" not in final_headers:
+        final_headers["Content-Type"] = "application/json"
+
     payload = {
         "model": model_name,
         "messages": prompt_messages,
@@ -69,7 +93,7 @@ def get_openrouter_completion(model_name: str, prompt_messages: list, headers: d
 
     response = requests.post(
         f"{OPENROUTER_API_BASE_URL}/chat/completions",
-        headers=headers,
+        headers=final_headers,  # Use the processed final_headers
         data=json.dumps(payload),
         timeout=60  # Adding a timeout for the request
     )
@@ -92,7 +116,24 @@ def get_openrouter_completion(model_name: str, prompt_messages: list, headers: d
         print(f"Warning: Received empty content from LLM. Full response: {response_data}")
         raise ValueError(f"Received empty content from LLM. Response: {response_data}")
             
-    return content.strip()
+    try:
+        parsed_json = json.loads(content)
+    except json.JSONDecodeError as e:
+        error_msg = f"LLM response was not valid JSON. Raw response: '{content}'"
+        print(f"  Error: {error_msg} - JSONDecodeError: {e}")
+        raise ValueError(error_msg) from e
+
+    if not isinstance(parsed_json, dict):
+        error_msg = f"LLM response, when parsed, was not a dictionary as expected. Type: {type(parsed_json)}. Parsed: '{parsed_json}'"
+        print(f"  Error: {error_msg}")
+        raise ValueError(error_msg)
+        
+    if "actionid" not in parsed_json or "reason" not in parsed_json:
+        error_msg = f"LLM JSON response missing 'actionid' or 'reason' key. Parsed JSON: '{parsed_json}'"
+        print(f"  Error: {error_msg}")
+        raise ValueError(error_msg)
+            
+    return parsed_json
 
 
 # --- Data Loading Functions ---
@@ -128,14 +169,23 @@ def load_action_pairs_from_file(file_path: Path) -> list:
         # Map keys
         mapped_data = []
         for pair in data:
+            city_locode_raw = pair.get("CityLocode")
+            city_locode_formatted = city_locode_raw # Default to raw
+            if isinstance(city_locode_raw, str) and len(city_locode_raw) > 2:
+                # Insert space after the first two characters, e.g., "BRCMG" -> "BR CMG"
+                city_locode_formatted = f"{city_locode_raw[:2]} {city_locode_raw[2:]}"
+            
+            # Adjust keys to match comparisons_Martha_Dillon_C40.json
             mapped_pair = {
-                "actionA_id": pair.get("actionA"),
-                "actionB_id": pair.get("actionB"),
-                "city_locode": pair.get("city_locode")
+                "actionA_id": pair.get("ActionA"), # Changed from "actionA"
+                "actionB_id": pair.get("ActionB"), # Changed from "actionB"
+                "city_locode": city_locode_formatted # Use the formatted locode
             }
             # Ensure all required keys are present after mapping
+            # Note: if city_locode_formatted is None (e.g. if pair.get("CityLocode") was None),
+            # this check will correctly identify it.
             if not all(mapped_pair.values()): # Checks if any value is None or empty
-                 print(f"Warning: Skipping pair due to missing data after mapping: {pair} -> {mapped_pair}")
+                 print(f"Warning: Skipping pair due to missing data after mapping: {pair} -> {mapped_pair} (raw locode: {city_locode_raw})")
                  continue
             mapped_data.append(mapped_pair)
         
@@ -189,8 +239,18 @@ def construct_comparison_prompt(action_a_data: dict, action_b_data: dict, city_c
     prompt = f"""You are an expert in climate change adaptation and mitigation planning.
 Your task is to compare two proposed climate actions for a specific city and determine which action is more suitable or impactful for that city.
 Please analyze the provided city context and the details of Action A and Action B.
-Based on your analysis, return ONLY the ActionID of the action you determine to be better.
-Do not include any other text, explanation, reasoning, or formatting. Just the ActionID.
+
+Based on your analysis, you MUST return a JSON object with two keys:
+1. "actionid": The ActionID of the action you determine to be better.
+2. "reason": A concise explanation (1-2 sentences) justifying your choice, focusing on the city's context and the action's suitability. This explanation is for a non-expert user.
+
+Example of the required JSON output format:
+{{
+  "actionid": "ACTION_ID_OF_WINNER",
+  "reason": "This action was chosen because it directly addresses the city's primary climate risks (e.g., flooding) and aligns with its key emission reduction goals in the transport sector, offering a good balance of impact and feasibility given the city's resources."
+}}
+
+Do not include any other text, explanation, or formatting outside of this single JSON object.
 
 City Context:
 - Name: {get_val(city_context_data, 'name')}
@@ -235,80 +295,102 @@ Action B:
 - TimelineForImplementation: {get_val(action_b_data, 'TimelineForImplementation')}
 
 Considering all the above information, which action is better for the specified city?
-Return ONLY the ActionID of the better action. For example, if Action A is better, return: {get_val(action_a_data, 'ActionID')}
+Return ONLY the JSON object in the format specified above. For example, if Action A (ID: {get_val(action_a_data, 'ActionID')}) is better, your response should look like:
+{{
+  "actionid": "{get_val(action_a_data, 'ActionID')}",
+  "reason": "Action A is preferred because..."
+}}
 """
     return prompt.strip()
 
 
 # --- New LLM Invocation Function ---
 def rank_actions_with_llm(
-    city_dict: dict, 
-    action_a_dict: dict, 
-    action_b_dict: dict, 
-    openrouter_headers: dict, 
-    model_name: str = "google/gemini-2.5-pro-preview"
-) -> str:
+    comparison_input: dict, 
+    model_name: str = DEFAULT_MODEL_NAME # Use the global default model name
+) -> dict:
     """
     Compares two actions for a given city using an LLM.
+    Fetches city and action data internally.
+    The LLM is expected to return a JSON object with 'actionid' and 'reason'.
 
     Args:
-        city_dict: Dictionary containing the city context data.
-        action_a_dict: Dictionary for Action A.
-        action_b_dict: Dictionary for Action B.
-        openrouter_headers: Headers for the OpenRouter API call.
+        comparison_input: Dictionary containing {"CityLocode": str, "ActionA": ActionID_str, "ActionB": ActionID_str}.
         model_name: The name of the OpenRouter model to use.
 
     Returns:
-        The ActionID of the winning action as determined by the LLM.
+        A dictionary containing {"actionid": winning_ActionID_str, "reason": reason_text_str}.
 
     Raises:
-        Various exceptions from construct_comparison_prompt or get_openrouter_completion 
-        (e.g., requests.exceptions.RequestException, ValueError, KeyError).
+        ValueError: If input data is missing/invalid, if city/action data cannot be fetched,
+                    or if the LLM response (after parsing) has an invalid ActionID.
+        requests.exceptions.RequestException, KeyError: From get_openrouter_completion.
     """
-    print(f"  Comparing Action {action_a_dict.get('ActionID')} vs {action_b_dict.get('ActionID')} for City {city_dict.get('locode')} using model {model_name}")
+    city_locode = comparison_input.get("CityLocode")
+    action_a_id = comparison_input.get("ActionA")
+    action_b_id = comparison_input.get("ActionB")
+
+    if not all([city_locode, action_a_id, action_b_id]):
+        raise ValueError("Missing 'CityLocode', 'ActionA', or 'ActionB' in comparison_input.")
+
+    openrouter_headers = initialize_openrouter_client_headers() # Initialize headers internally
+    
+    # Ensure locode is a string before passing (to satisfy linter)
+    assert isinstance(city_locode, str), "CityLocode must be a string."
+
+    # Fetch data internally
+    try:
+        city_dict = read_city_inventory(city_locode)
+    except ValueError as e: # Raised by read_city_inventory if not found
+        raise ValueError(f"Failed to read city inventory for {city_locode}: {e}") from e
+    
+    all_actions_data = load_all_actions_data() # This function is defined in prioritizer.py
+    if not all_actions_data:
+        raise ValueError("Failed to load all_actions_data.")
+
+    action_a_dict = all_actions_data.get(action_a_id)
+    action_b_dict = all_actions_data.get(action_b_id)
+
+    if not action_a_dict:
+        raise ValueError(f"ActionID '{action_a_id}' (Action A) not found in loaded actions.")
+    if not action_b_dict:
+        raise ValueError(f"ActionID '{action_b_id}' (Action B) not found in loaded actions.")
+
+    print(f"  Comparing Action {action_a_id} vs {action_b_id} for City {city_locode} using model {model_name}")
     
     # 1. Construct the prompt
     prompt_text = construct_comparison_prompt(action_a_dict, action_b_dict, city_dict)
     prompt_messages = [{"role": "user", "content": prompt_text}]
 
-    # 2. Call the LLM completion function
-    # Exceptions from get_openrouter_completion will propagate up
-    winner_action_id = get_openrouter_completion(
+    # 2. Call the LLM completion function - it now returns a dict
+    llm_response_dict = get_openrouter_completion(
         model_name=model_name,
         prompt_messages=prompt_messages,
         headers=openrouter_headers
     )
     
-    # 3. Basic validation of the returned ID
-    action_a_id = action_a_dict.get("ActionID")
-    action_b_id = action_b_dict.get("ActionID")
+    # 3. Extract actionid and reason, then validate the actionid
+    winner_action_id = llm_response_dict.get("actionid") # Assuming get_openrouter_completion validated presence
+    reason_text = llm_response_dict.get("reason") # Also present, will be returned
+
     if winner_action_id not in [action_a_id, action_b_id]:
-        error_msg = f"LLM returned an invalid/unexpected ActionID: '{winner_action_id}'. Expected one of '{action_a_id}' or '{action_b_id}'."
-        # Raise a ValueError or a custom exception might be better, but for now use ValueError
-        # This will be caught by the calling function (prioritize_action_pairs)
+        error_msg = f"LLM returned an invalid ActionID '{winner_action_id}' in JSON. Expected one of '{action_a_id}' or '{action_b_id}'."
+        # Optionally include more context: f"Full LLM response dict: {llm_response_dict}"
         raise ValueError(error_msg) 
 
-    return winner_action_id
+    return llm_response_dict # Return the whole dict containing validated actionid and reason
 
 
 # --- Core Prioritization Logic ---
 def prioritize_action_pairs(
-    action_pairs_list: list, 
-    all_actions_data: dict, 
-    openrouter_headers: dict
+    action_pairs_list: list
+    # `all_actions_data` parameter removed as data is fetched inside rank_actions_with_llm
 ) -> list:
     """
     Processes a list of action pairs, gets LLM comparison for each, and returns results.
     """
     results = []
     
-    if not all_actions_data:
-        print("Critical Error: 'all_actions_data' is empty or None. Cannot proceed with prioritization.")
-        # Optionally, populate all results with errors or return immediately
-        for pair_info in action_pairs_list:
-             results.append({**pair_info, "winner": "Error: Prerequisite action data missing", "error_detail": "all_actions_data was empty"})
-        return results
-
     for i, pair_info in enumerate(action_pairs_list):
         action_a_id = pair_info.get("actionA_id")
         action_b_id = pair_info.get("actionB_id")
@@ -320,54 +402,56 @@ def prioritize_action_pairs(
             "actionA_id": action_a_id,
             "actionB_id": action_b_id,
             "city_locode": city_locode,
-            "winner": None, # Placeholder
-            "error_detail": None # Placeholder
+            "winner": None, 
+            "reason": None,
+            "error_detail": None 
         }
 
         if not all([action_a_id, action_b_id, city_locode]):
-            print(f"  Skipping pair due to missing IDs or locode: {pair_info}")
-            current_result_payload["winner"] = "Error: Missing input data"
-            current_result_payload["error_detail"] = "One or more of actionA_id, actionB_id, city_locode is missing."
+            print(f"  Skipping pair due to missing IDs or locode in input pair_info: {pair_info}")
+            current_result_payload["winner"] = "Error: Missing input data in pair_info"
+            current_result_payload["error_detail"] = "One or more of actionA_id, actionB_id, city_locode is missing from the input pair_info."
             results.append(current_result_payload)
             continue
 
-        action_a_data = all_actions_data.get(action_a_id)
-        action_b_data = all_actions_data.get(action_b_id)
-        
-        if not action_a_data:
-            print(f"  Error: ActionID '{action_a_id}' (Action A) not found in loaded actions.")
-            current_result_payload["winner"] = f"Error: Action A ID not found"
-            current_result_payload["error_detail"] = f"ActionID '{action_a_id}' not found in all_actions_data."
-            results.append(current_result_payload)
-            continue
-        if not action_b_data:
-            print(f"  Error: ActionID '{action_b_id}' (Action B) not found in loaded actions.")
-            current_result_payload["winner"] = f"Error: Action B ID not found"
-            current_result_payload["error_detail"] = f"ActionID '{action_b_id}' not found in all_actions_data."
-            results.append(current_result_payload)
-            continue
+        # Data fetching for action_a_data and action_b_data is now inside rank_actions_with_llm
+        # City data is also fetched inside rank_actions_with_llm
 
         try:
+            comparison_input = {
+                "CityLocode": city_locode,
+                "ActionA": action_a_id,
+                "ActionB": action_b_id
+            }
             # Call the LLM comparison function
-            winner_action_id = rank_actions_with_llm(
-                city_dict=read_city_inventory(city_locode), 
-                action_a_dict=action_a_data, 
-                action_b_dict=action_b_data,
-                openrouter_headers=openrouter_headers
-            )
+            # Default model is used unless we pass model_name explicitly
+            llm_result_dict = rank_actions_with_llm(comparison_input)
             
-            print(f"  LLM chose: {winner_action_id}")
+            winner_action_id = llm_result_dict.get("actionid")
+            reason_text = llm_result_dict.get("reason")
+
+            print(f"  LLM chose: {winner_action_id} because: {reason_text}")
             current_result_payload["winner"] = winner_action_id
+            current_result_payload["reason"] = reason_text
         
-        except ValueError as e: # Catch city reading errors or invalid LLM response from rank_actions
+        except ValueError as e: 
             error_msg = f"Error processing pair: {e}"
             print(f"  Error: {error_msg}")
-            # Distinguish between city data error and LLM error if possible
-            if f"City with locode '{city_locode}' not found" in str(e):
-                current_result_payload["winner"] = "Error: City locode data issue"
-            elif "LLM returned an invalid/unexpected ActionID" in str(e):
-                current_result_payload["winner"] = "Error: Invalid LLM response"
-            else: # Other ValueErrors
+            # Error classification based on message content from rank_actions_with_llm or get_openrouter_completion
+            if "LLM response was not valid JSON" in str(e):
+                current_result_payload["winner"] = "Error: LLM JSON Decode"
+            elif "LLM JSON response missing 'actionid' or 'reason' key" in str(e):
+                current_result_payload["winner"] = "Error: LLM JSON Structure"
+            elif "LLM returned an invalid ActionID" in str(e): # Checks for invalid ActionID from rank_actions_with_llm
+                current_result_payload["winner"] = "Error: Invalid LLM ActionID in JSON"
+            elif f"Failed to read city inventory for {city_locode}" in str(e) or \
+               f"ActionID '{action_a_id}' (Action A) not found" in str(e) or \
+               f"ActionID '{action_b_id}' (Action B) not found" in str(e) or \
+               "Failed to load all_actions_data" in str(e):
+                current_result_payload["winner"] = "Error: Data fetching issue"
+            elif "Missing 'CityLocode', 'ActionA', or 'ActionB'" in str(e):
+                 current_result_payload["winner"] = "Error: Invalid input to ranker"
+            else: 
                 current_result_payload["winner"] = "Error: Processing ValueError"
             current_result_payload["error_detail"] = error_msg
         except requests.exceptions.HTTPError as e:
@@ -380,13 +464,12 @@ def prioritize_action_pairs(
             print(f"  Error: {error_msg}")
             current_result_payload["winner"] = "Error: API RequestException"
             current_result_payload["error_detail"] = error_msg
-        except KeyError as e: # Catches JSON key errors etc. from get_openrouter_completion
+        except KeyError as e: 
              error_msg = f"Error processing LLM response or invalid response format: {e}"
              print(f"  Error: {error_msg}")
              current_result_payload["winner"] = "Error: LLM processing error"
              current_result_payload["error_detail"] = error_msg
         except Exception as e: 
-            # Catch any other unexpected error during city reading or LLM call
             error_msg = f"An unexpected error occurred processing pair: {e}"
             print(f"  Error: {error_msg}")
             current_result_payload["winner"] = "Error: Unexpected processing error"
@@ -427,22 +510,27 @@ def main():
     print(" Climate Action Prioritization Script Initializing... ")
     print("========================================================")
 
+    # OPENROUTER_API_KEY is loaded at the module level now by dotenv.
+    # The check below is still useful to ensure it was actually set in the .env
     if not OPENROUTER_API_KEY:
-        print("Critical Error: OPENROUTER_API_KEY environment variable is not set.")
-        print("Please set this variable before running the script. Exiting.")
+        print("Critical Error: OPENROUTER_API_KEY environment variable is not set or not loaded from .env.")
+        print("Please set this variable in your .env file before running the script. Exiting.")
         return
 
-    try:
-        openrouter_headers = initialize_openrouter_client_headers()
-        print("OpenRouter client headers initialized.")
-    except ValueError as e: # Should be caught by the check above, but good for safety
-        print(f"Error during initialization: {e}")
-        return
+    # Headers are now initialized inside rank_actions_with_llm, so this call is not strictly needed here
+    # try:
+    #     openrouter_headers = initialize_openrouter_client_headers()
+    #     print("OpenRouter client headers (checked for presence of API key).")
+    # except ValueError as e:
+    #     print(f"Error during initialization: {e}")
+    #     return
 
     print("--- Step 1: Loading All Climate Actions Data ---")
-    all_actions_data = load_all_actions_data()
-    if not all_actions_data:
-        print("Critical Error: Failed to load action data, or no actions were found.")
+    # This is primarily to check if action data is accessible.
+    # rank_actions_with_llm will load it again if this instance is not passed down (which it isn't currently).
+    all_actions_data_check = load_all_actions_data()
+    if not all_actions_data_check:
+        print("Critical Error: Failed to load action data initially, or no actions were found.")
         print("Please check the 'data/climate_actions/merged.json' file and 'utils/reading_writing_data.py' paths.")
         print("Exiting.")
         return
@@ -457,13 +545,12 @@ def main():
         return
 
     # --- Step 3: Prioritizing Action Pairs using LLM ---
-    print(f"\n--- Step 3: Prioritizing Action Pairs using LLM (default in rank_actions_with_llm) ---")
+    print(f"\n--- Step 3: Prioritizing Action Pairs using LLM ---")
     
-    # Model selection is now handled within rank_actions_with_llm or its callers if overriding default
+    # Model selection is handled within rank_actions_with_llm, which has a default.
+    # Headers are no longer passed to prioritize_action_pairs
     prioritized_results = prioritize_action_pairs(
-        action_pairs_list=current_action_pairs,
-        all_actions_data=all_actions_data,
-        openrouter_headers=openrouter_headers
+        action_pairs_list=current_action_pairs
     )
 
     # --- Step 4: Saving Results ---
