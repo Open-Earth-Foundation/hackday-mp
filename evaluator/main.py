@@ -14,7 +14,9 @@ from prioritizer.prioritizer import rank_actions_with_llm
 
 client = Client()
 
-MODEL_NAME = "google/gemini-flash-1.5"
+# MODEL_NAME = "google/gemini-flash-1.5"
+# MODEL_NAME = "meta-llama/llama-4-maverick:free"
+MODEL_NAME = "qwen/qwen3-4b:free"
 
 
 # Wrapper function to pass in a model name
