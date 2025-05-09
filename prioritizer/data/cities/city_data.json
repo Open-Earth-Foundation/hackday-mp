@@ -1,6 +1,6 @@
 [
   {
-    "locode": "BRACZ",
+    "locode": "BR ACZ",
     "name": "Aracruz",
     "region": "ES",
     "regionName": "Espírito Santo",
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "locode": "BRARC",
+    "locode": "BR ARC",
     "name": "Arapiraca",
     "region": "AL",
     "regionName": "Alagoas",
@@ -208,7 +208,7 @@
     ]
   },
   {
-    "locode": "BRATB",
+    "locode": "BR ATB",
     "name": "Abaetetuba",
     "region": "PA",
     "regionName": "Pará",
@@ -312,7 +312,7 @@
     ]
   },
   {
-    "locode": "BRATM",
+    "locode": "BR ATM",
     "name": "Altamira",
     "region": "PA",
     "regionName": "Pará",
@@ -416,7 +416,7 @@
     ]
   },
   {
-    "locode": "BRBVB",
+    "locode": "BR BVB",
     "name": "Boa Vista",
     "region": "RR",
     "regionName": "Roraima",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "locode": "BRCAJ",
+    "locode": "BR CAJ",
     "name": "Cajazeiras",
     "region": "PB",
     "regionName": "Paraíba",
@@ -624,7 +624,7 @@
     ]
   },
   {
-    "locode": "BRCAT",
+    "locode": "BR CAT",
     "name": "Crato",
     "region": "CE",
     "regionName": "Ceará",
@@ -728,7 +728,7 @@
     ]
   },
   {
-    "locode": "BRCBA",
+    "locode": "BR CBA",
     "name": "Cuiabá",
     "region": "MT",
     "regionName": "Mato Grosso",
@@ -832,7 +832,7 @@
     ]
   },
   {
-    "locode": "BRCCX",
+    "locode": "BR CCX",
     "name": "Cáceres",
     "region": "MT",
     "regionName": "Mato Grosso",
@@ -936,7 +936,7 @@
     ]
   },
   {
-    "locode": "BRCCY",
+    "locode": "BR CCY",
     "name": "Caracaraí",
     "region": "RR",
     "regionName": "Roraima",
@@ -1040,7 +1040,7 @@
     ]
   },
   {
-    "locode": "BRCGE",
+    "locode": "BR CGE",
     "name": "Contagem",
     "region": "MG",
     "regionName": "Minas Gerais",
@@ -1144,7 +1144,7 @@
     ]
   },
   {
-    "locode": "BRCGR",
+    "locode": "BR CGR",
     "name": "Campo Grande",
     "region": "MS",
     "regionName": "Mato Grosso do Sul",
@@ -1248,7 +1248,7 @@
     ]
   },
   {
-    "locode": "BRCII",
+    "locode": "BR CII",
     "name": "Cariacica",
     "region": "ES",
     "regionName": "Espírito Santo",
@@ -1352,7 +1352,7 @@
     ]
   },
   {
-    "locode": "BRCLO",
+    "locode": "BR CLO",
     "name": "Campo Largo",
     "region": "PR",
     "regionName": "Paraná",
@@ -1456,7 +1456,7 @@
     ]
   },
   {
-    "locode": "BRCME",
+    "locode": "BR CME",
     "name": "Camaragibe",
     "region": "PE",
     "regionName": "Pernambuco",
@@ -1560,7 +1560,7 @@
     ]
   },
   {
-    "locode": "BRCMG",
+    "locode": "BR CMG",
     "name": "Corumbá",
     "region": "MS",
     "regionName": "Mato Grosso do Sul",
@@ -1664,7 +1664,7 @@
     ]
   },
   {
-    "locode": "BRCMA",
+    "locode": "BR CMA",
     "name": "Cametá",
     "region": "PA",
     "regionName": "Pará",
@@ -1768,7 +1768,7 @@
     ]
   },
   {
-    "locode": "BRCOX",
+    "locode": "BR COX",
     "name": "Coxim",
     "region": "MS",
     "regionName": "Mato Grosso do Sul",
@@ -1872,7 +1872,7 @@
     ]
   },
   {
-    "locode": "BRCXL",
+    "locode": "BR CXL",
     "name": "Caxias do Sul",
     "region": "RS",
     "regionName": "Rio Grande do Sul",
@@ -1976,7 +1976,7 @@
     ]
   },
   {
-    "locode": "BRCZL",
+    "locode": "BR CZL",
     "name": "Cruzeiro do Sul",
     "region": "RS",
     "regionName": "Rio Grande do Sul",
@@ -2080,7 +2080,7 @@
     ]
   },
   {
-    "locode": "BRFMO",
+    "locode": "BR FMO",
     "name": "Formosa",
     "region": "GO",
     "regionName": "Goiás",
@@ -2184,7 +2184,7 @@
     ]
   },
   {
-    "locode": "BRFOR",
+    "locode": "BR FOR",
     "name": "Fortaleza",
     "region": "CE",
     "regionName": "Ceará",
@@ -2288,7 +2288,7 @@
     ]
   },
   {
-    "locode": "BRGRA",
+    "locode": "BR GRA",
     "name": "Gravataí",
     "region": "RS",
     "regionName": "Rio Grande do Sul",
@@ -2392,7 +2392,7 @@
     ]
   },
   {
-    "locode": "BRGYN",
+    "locode": "BR GYN",
     "name": "Goiânia",
     "region": "GO",
     "regionName": "Goiás",
@@ -2496,7 +2496,7 @@
     ]
   },
   {
-    "locode": "BRIIP",
+    "locode": "BR IIP",
     "name": "Itapipoca",
     "region": "CE",
     "regionName": "Ceará",
@@ -2600,7 +2600,7 @@
     ]
   },
   {
-    "locode": "BRIOS",
+    "locode": "BR IOS",
     "name": "Ilhéus",
     "region": "BA",
     "regionName": "Bahia",
@@ -2704,7 +2704,7 @@
     ]
   },
   {
-    "locode": "BRJPR",
+    "locode": "BR JPR",
     "name": "Ji-Paraná",
     "region": "RO",
     "regionName": "Rondônia",
@@ -2808,7 +2808,7 @@
     ]
   },
   {
-    "locode": "BRJZO",
+    "locode": "BR JZO",
     "name": "Juazeiro",
     "region": "BA",
     "regionName": "Bahia",
@@ -2912,7 +2912,7 @@
     ]
   },
   {
-    "locode": "BRMAO",
+    "locode": "BR MAO",
     "name": "Manaus",
     "region": "AM",
     "regionName": "Amazonas",
@@ -3016,7 +3016,7 @@
     ]
   },
   {
-    "locode": "BRMGE",
+    "locode": "BR MGE",
     "name": "Maranguape",
     "region": "CE",
     "regionName": "Ceará",
@@ -3120,7 +3120,7 @@
     ]
   },
   {
-    "locode": "BRMOC",
+    "locode": "BR MOC",
     "name": "Montes Claros",
     "region": "MG",
     "regionName": "Minas Gerais",
@@ -3224,7 +3224,7 @@
     ]
   },
   {
-    "locode": "BRMOS",
+    "locode": "BR MOS",
     "name": "Mossoró",
     "region": "RN",
     "regionName": "Rio Grande do Norte",
@@ -3328,7 +3328,7 @@
     ]
   },
   {
-    "locode": "BRMRD",
+    "locode": "BR MRD",
     "name": "Miranda",
     "region": "MS",
     "regionName": "Mato Grosso do Sul",
@@ -3432,7 +3432,7 @@
     ]
   },
   {
-    "locode": "BRPES",
+    "locode": "BR PES",
     "name": "Petrópolis",
     "region": "RJ",
     "regionName": "Rio de Janeiro",
@@ -3536,7 +3536,7 @@
     ]
   },
   {
-    "locode": "BRPIN",
+    "locode": "BR PIN",
     "name": "Parintins",
     "region": "AM",
     "regionName": "Amazonas",
@@ -3640,7 +3640,7 @@
     ]
   },
   {
-    "locode": "BRPIS",
+    "locode": "BR PIS",
     "name": "Palmeira dos Índios",
     "region": "AL",
     "regionName": "Alagoas",
@@ -3744,7 +3744,7 @@
     ]
   },
   {
-    "locode": "BRPOA",
+    "locode": "BR POA",
     "name": "Porto Alegre",
     "region": "RS",
     "regionName": "Rio Grande do Sul",
@@ -3848,7 +3848,7 @@
     ]
   },
   {
-    "locode": "BRRBR",
+    "locode": "BR RBR",
     "name": "Rio Branco",
     "region": "AC",
     "regionName": "Acre",
@@ -3952,7 +3952,7 @@
     ]
   },
   {
-    "locode": "BRRIO",
+    "locode": "BR RIO",
     "name": "Rio de Janeiro",
     "region": "RJ",
     "regionName": "Rio de Janeiro",
@@ -4056,7 +4056,7 @@
     ]
   },
   {
-    "locode": "BRRNV",
+    "locode": "BR RNV",
     "name": "Ribeirão das Neves",
     "region": "MG",
     "regionName": "Minas Gerais",
@@ -4160,7 +4160,7 @@
     ]
   },
   {
-    "locode": "BRSCV",
+    "locode": "BR SCV",
     "name": "São Cristóvão",
     "region": "SE",
     "regionName": "Sergipe",
@@ -4264,7 +4264,7 @@
     ]
   },
   {
-    "locode": "BRSER",
+    "locode": "BR SER",
     "name": "Serra",
     "region": "ES",
     "regionName": "Espírito Santo",
@@ -4368,7 +4368,7 @@
     ]
   },
   {
-    "locode": "BRSIN",
+    "locode": "BR SIN",
     "name": "Sinop",
     "region": "MT",
     "regionName": "Mato Grosso",
@@ -4472,7 +4472,7 @@
     ]
   },
   {
-    "locode": "BRSJM",
+    "locode": "BR SJM",
     "name": "São João de Meriti",
     "region": "RJ",
     "regionName": "Rio de Janeiro",
@@ -4576,7 +4576,7 @@
     ]
   },
   {
-    "locode": "BRSLO",
+    "locode": "BR SLO",
     "name": "São Leopoldo",
     "region": "RS",
     "regionName": "Rio Grande do Sul",
@@ -4680,7 +4680,7 @@
     ]
   },
   {
-    "locode": "BRSOB",
+    "locode": "BR SOB",
     "name": "Sobral",
     "region": "CE",
     "regionName": "Ceará",
@@ -4784,7 +4784,7 @@
     ]
   },
   {
-    "locode": "BRSOR",
+    "locode": "BR SOR",
     "name": "Sorocaba",
     "region": "SP",
     "regionName": "São Paulo",
@@ -4888,7 +4888,7 @@
     ]
   },
   {
-    "locode": "BRTAA",
+    "locode": "BR TAA",
     "name": "Tarauacá",
     "region": "AC",
     "regionName": "Acre",
@@ -4992,7 +4992,7 @@
     ]
   },
   {
-    "locode": "BRTSE",
+    "locode": "BR TSE",
     "name": "Tangará da Serra",
     "region": "MT",
     "regionName": "Mato Grosso",
@@ -5096,7 +5096,7 @@
     ]
   },
   {
-    "locode": "BRVDS",
+    "locode": "BR VDS",
     "name": "Vitória de Santo Antão",
     "region": "PE",
     "regionName": "Pernambuco",
