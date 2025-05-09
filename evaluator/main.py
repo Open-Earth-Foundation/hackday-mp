@@ -1,39 +1,40 @@
+"""
+This script is used to evaluate the correctness of the prioritizer.
+
+To run the script, use the following command from root directory:
+python -m evaluator.main
+
+Set the MODEL_NAME to the model you want to evaluate.
+The langsmith experiment will be saved with this model name.
+"""
+
 from langsmith import Client
 from typing import List, Tuple
+from prioritizer.prioritizer import rank_actions_with_llm
 
 client = Client()
 
-headers = [
-    {"name": "meta-llama/llama-4-maverick:free", "has_structured_outputs": True},
-    {"name": "meta-llama/llama-4-scout:free", "has_structured_outputs": True},
-    {"name": "google/gemma-3-27b-it:free", "has_structured_outputs": True},
-]
+MODEL_NAME = "google/gemini-flash-1.5"
 
 
-def mock_llm_comparison(inputs: dict, headers: list[dict] = headers) -> dict:
-
-    # print(inputs)
-    print(headers)
-
-    locode = inputs["CityLocode"]
-    action_a = inputs["ActionA"]
-    action_b = inputs["ActionB"]
-
-    # LLM logic here
-    llm_response = action_b
-
-    return {"PreferredAction": llm_response}
+# Wrapper function to pass in a model name
+def target_with_model(inputs: dict) -> dict:
+    return rank_actions_with_llm(inputs, model_name=MODEL_NAME)
 
 
-# Define the application logic you want to evaluate inside a target function
-# The SDK will automatically send the inputs from the dataset to your target function
-# def target(inputs: dict) -> dict:
-#     # inputs is the input of the test dataset
-#     # llm compare (action a aciton b city)
-#     # return action b
-#     # Your model logic here, for example:
-#     predicted_action = "icare_0003"  # Replace with actual prediction logic
-#     return {"PreferredAction": predicted_action}
+# def mock_llm_comparison(inputs: dict, headers: list[dict] = headers) -> dict:
+
+#     # print(inputs)
+#     print(headers)
+
+#     locode = inputs["CityLocode"]
+#     action_a = inputs["ActionA"]
+#     action_b = inputs["ActionB"]
+
+#     # LLM logic here
+#     llm_response = action_b
+
+#     return {"PreferredAction": llm_response}
 
 
 def correctness_evaluator(inputs: dict, outputs: dict, reference_outputs: dict) -> bool:
@@ -44,10 +45,7 @@ def correctness_evaluator(inputs: dict, outputs: dict, reference_outputs: dict) 
     return outputs.get("PreferredAction") == reference_outputs.get("PreferredAction")
 
 
-def evaluation_function(
-    dataset_name: str = "ds-expert-comparisons",
-    experiment_prefix: str = "first-eval-in-langsmith",
-):
+def evaluation_function(experiment_prefix: str, dataset_name: str):
     """
     This function loads the test data from the dataset and runs the evaluation.
     It will take the 'inputs' from the test dataset and pass them to the 'target' function.
@@ -56,7 +54,7 @@ def evaluation_function(
 
     # After running the evaluation, a link will be provided to view the results in langsmith
     experiment_results = client.evaluate(
-        mock_llm_comparison,
+        target_with_model,
         data=dataset_name,
         evaluators=[
             correctness_evaluator,  # type: ignore
@@ -68,6 +66,5 @@ def evaluation_function(
 if __name__ == "__main__":
     # Load the test data
     evaluation_function(
-        dataset_name="ds-expert-comparisons",
-        experiment_prefix="first-eval-in-langsmith",
+        experiment_prefix=MODEL_NAME, dataset_name="ds-expert-comparisons"
     )
