@@ -12,6 +12,7 @@ import os
 from pathlib import Path
 import requests
 from dotenv import load_dotenv
+import time
 
 load_dotenv()
 
@@ -71,6 +72,7 @@ def get_openrouter_completion(
     Makes a call to the OpenRouter /chat/completions endpoint.
     If headers are not provided or incomplete, defaults will be used for Authorization and Content-Type.
     The response content is expected to be a JSON string, which will be parsed into a dictionary.
+    Retries once after a 10-second delay if the first attempt yields empty content or a network error.
 
     Args:
         model_name: The name of the model to use.
@@ -82,9 +84,9 @@ def get_openrouter_completion(
         A dictionary parsed from the LLM's JSON response, expected to contain 'actionid' and 'reason'.
 
     Raises:
-        requests.exceptions.RequestException: If the API call fails.
+        requests.exceptions.RequestException: If the API call fails after all retries.
         KeyError, IndexError: If the response format is unexpected (before JSON parsing).
-        ValueError: If the response content is empty, JSON decoding fails,
+        ValueError: If the response content is empty after all retries, JSON decoding fails,
                     OPENROUTER_API_KEY is not set and Authorization header is missing,
                     or if the parsed JSON does not contain 'actionid' and 'reason' keys.
     """
@@ -109,84 +111,115 @@ def get_openrouter_completion(
         "messages": prompt_messages,
     }
 
-    response = requests.post(
-        f"{OPENROUTER_API_BASE_URL}/chat/completions",
-        headers=final_headers,  # Use the processed final_headers
-        data=json.dumps(payload),
-        timeout=60,  # Adding a timeout for the request
-    )
-    response.raise_for_status()  # Raises an HTTPError for bad responses (4XX or 5XX)
+    MAX_RETRIES = 2
+    last_exception = None
 
-    try:
-        response_data = response.json()
-    except json.JSONDecodeError as e:
-        print(f"Failed to decode JSON response: {e}")
-        print(f"Response text: {response.text}")
-        raise ValueError(f"Failed to decode JSON response: {response.text}") from e
-
-    try:
-        content = response_data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError) as e:
-        print(f"Unexpected response format from API. Full response: {response_data}")
-        raise KeyError(
-            f"Could not extract content from LLM response: {response_data}"
-        ) from e
-
-    if not content:
-        print(
-            f"Warning: Received empty content from LLM. Full response: {response_data}"
-        )
-        raise ValueError(f"Received empty content from LLM. Response: {response_data}")
-
-    try:
-        # First attempt to parse directly
-        parsed_json = json.loads(content)
-    except json.JSONDecodeError as e1:
-        # If direct parsing fails, try to strip markdown code block if present
-        stripped_content = content.strip()
-        if stripped_content.startswith("```json") and stripped_content.endswith("```"):
-            # Extract content between ```json\n and ```
-            # Common pattern is ```json\n{...}\n``` or just ```json\n{...}```
-            # We'll find the first { and last }
-            first_brace = stripped_content.find("{")
-            last_brace = stripped_content.rfind("}")
-            if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
-                json_substring = stripped_content[first_brace : last_brace + 1]
-                try:
-                    print(
-                        f"  Attempting to parse extracted JSON substring: '{json_substring[:100]}...'"
-                    )  # Log snippet
-                    parsed_json = json.loads(json_substring)
-                except json.JSONDecodeError as e2:
-                    error_msg = f"LLM response was not valid JSON even after attempting to strip markdown. Extracted part: '{json_substring[:100]}...' Original raw: '{content[:100]}...'"
-                    print(f"  Error: {error_msg} - Inner JSONDecodeError: {e2}")
-                    raise ValueError(
-                        error_msg
-                    ) from e2  # Raise error from trying to parse substring
-            else:
-                # Could not find valid braces in the supposed markdown block
-                error_msg = f"LLM response started with ```json but could not extract a valid JSON object. Raw response: '{content[:100]}...'"
-                print(f"  Error: {error_msg}")
-                raise ValueError(error_msg) from e1  # Raise original error
-        else:
-            # Not a markdown code block, or not one we can handle, so original error stands
-            error_msg = (
-                f"LLM response was not valid JSON. Raw response: '{content[:100]}...'"
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.post(
+                f"{OPENROUTER_API_BASE_URL}/chat/completions",
+                headers=final_headers,
+                data=json.dumps(payload),
+                timeout=60,
             )
-            print(f"  Error: {error_msg} - JSONDecodeError: {e1}")
-            raise ValueError(error_msg) from e1  # Raise original error
+            response.raise_for_status() # Raises an HTTPError for bad responses (4XX or 5XX)
 
-    if not isinstance(parsed_json, dict):
-        error_msg = f"LLM response, when parsed, was not a dictionary as expected. Type: {type(parsed_json)}. Parsed: '{parsed_json}'"
-        print(f"  Error: {error_msg}")
-        raise ValueError(error_msg)
+            try:
+                response_data = response.json()
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON response: {e}")
+                print(f"Response text: {response.text}")
+                # This is a non-retryable error for this function's logic
+                raise ValueError(f"Failed to decode JSON response: {response.text}") from e
 
-    if "actionid" not in parsed_json or "reason" not in parsed_json:
-        error_msg = f"LLM JSON response missing 'actionid' or 'reason' key. Parsed JSON: '{parsed_json}'"
-        print(f"  Error: {error_msg}")
-        raise ValueError(error_msg)
+            try:
+                content = response_data["choices"][0]["message"]["content"]
+            except (KeyError, IndexError) as e:
+                print(f"Unexpected response format from API. Full response: {response_data}")
+                # This is a non-retryable error
+                raise KeyError(
+                    f"Could not extract content from LLM response: {response_data}"
+                ) from e
 
-    return parsed_json
+            if not content:
+                print(
+                    f"Warning: Received empty content from LLM on attempt {attempt + 1}/{MAX_RETRIES}. Full response: {response_data}"
+                )
+                if attempt < MAX_RETRIES - 1:
+                    print(f"Retrying in 10 seconds...")
+                    time.sleep(10)
+                    last_exception = ValueError(f"Received empty content from LLM. Response: {response_data}")
+                    continue # Go to next attempt
+                else:
+                    # This was the last attempt
+                    raise ValueError(f"Received empty content from LLM after {MAX_RETRIES} attempts. Response: {response_data}")
+
+            # If content is not empty, proceed to parse
+            try:
+                # First attempt to parse directly
+                parsed_json = json.loads(content)
+            except json.JSONDecodeError as e1:
+                # If direct parsing fails, try to strip markdown code block if present
+                stripped_content = content.strip()
+                if stripped_content.startswith("```json") and stripped_content.endswith("```"):
+                    first_brace = stripped_content.find("{")
+                    last_brace = stripped_content.rfind("}")
+                    if first_brace != -1 and last_brace != -1 and last_brace > first_brace:
+                        json_substring = stripped_content[first_brace : last_brace + 1]
+                        try:
+                            print(
+                                f"  Attempting to parse extracted JSON substring: '{json_substring[:100]}...'"
+                            )
+                            parsed_json = json.loads(json_substring)
+                        except json.JSONDecodeError as e2:
+                            error_msg = f"LLM response was not valid JSON even after attempting to strip markdown. Extracted part: '{json_substring[:100]}...' Original raw: '{content[:100]}...'"
+                            print(f"  Error: {error_msg} - Inner JSONDecodeError: {e2}")
+                            raise ValueError(error_msg) from e2
+                    else:
+                        error_msg = f"LLM response started with ```json but could not extract a valid JSON object. Raw response: '{content[:100]}...'"
+                        print(f"  Error: {error_msg}")
+                        raise ValueError(error_msg) from e1
+                else:
+                    error_msg = (
+                        f"LLM response was not valid JSON. Raw response: '{content[:100]}...'"
+                    )
+                    print(f"  Error: {error_msg} - JSONDecodeError: {e1}")
+                    raise ValueError(error_msg) from e1
+
+            if not isinstance(parsed_json, dict):
+                error_msg = f"LLM response, when parsed, was not a dictionary as expected. Type: {type(parsed_json)}. Parsed: '{parsed_json}'"
+                print(f"  Error: {error_msg}")
+                raise ValueError(error_msg)
+
+            if "actionid" not in parsed_json or "reason" not in parsed_json:
+                error_msg = f"LLM JSON response missing 'actionid' or 'reason' key. Parsed JSON: '{parsed_json}'"
+                print(f"  Error: {error_msg}")
+                raise ValueError(error_msg)
+            
+            print(f"  LLM response: {parsed_json}")
+            return parsed_json # Success
+
+        except requests.exceptions.RequestException as e:
+            print(f"RequestException on attempt {attempt + 1}/{MAX_RETRIES}: {e}")
+            last_exception = e
+            if attempt < MAX_RETRIES - 1:
+                print(f"Retrying in 10 seconds...")
+                time.sleep(10)
+                continue
+            else:
+                # This was the last attempt for RequestException
+                print(f"API call failed after {MAX_RETRIES} attempts due to RequestException.")
+                raise # Re-raise the last RequestException
+        
+        # If other ValueErrors or KeyErrors (not caught above for retry) occur, they will propagate out here.
+
+    # Should not be reached if MAX_RETRIES > 0, but as a fallback:
+    if last_exception:
+        raise last_exception # type: ignore
+    # This line would theoretically be hit if MAX_RETRIES is 0, which is not the case.
+    # Or if there's an error in the loop logic not leading to a return or raise.
+    # For safety, ensure an error is raised.
+    raise RuntimeError("get_openrouter_completion exited loop unexpectedly without returning or raising an error.")
 
 
 # --- Data Loading Functions ---
